@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom'
 export function FeaturedBlogCard({post, className}) {
   return (
     <>
-    <NavLink to = {`/newsportal/${post.id}`}>
+    <NavLink to = {`/${post.id}`}>
 
     <div className={`flex gap-[24px] w-full h-[320px] p-[24px] shadow-md rounded-[12px] items-center ${className} hover:shadow-xl`}>
         

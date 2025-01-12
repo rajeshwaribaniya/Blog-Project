@@ -1,7 +1,7 @@
-
+import {NewBlog, SingleNews} from './pages'
 import { Route, Routes } from "react-router-dom"
-import { NewBlog } from "./pages"
-import { SingleNews } from "./pages/SingleNews"
+
+
 
 function App() {
   
@@ -10,7 +10,7 @@ function App() {
     <>
       <Routes>
         <Route index element = {<NewBlog />} />
-        <Route path= "/:id" element={<SingleNews/>}/>
+        <Route path= "/:id" element={<SingleNews />}/>
       </Routes>    
     </>
   )
